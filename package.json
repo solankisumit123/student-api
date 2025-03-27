@@ -1,0 +1,25 @@
+{
+  "name": "student",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "auth": "^1.2.3",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "exit": "^0.1.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "middleware": "^1.0.0",
+    "mongoose": "^8.10.2",
+    "mongose": "^0.0.2-security",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.9",
+    "routes": "^2.1.0"
+  }
+}
